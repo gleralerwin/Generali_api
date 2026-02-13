@@ -33,23 +33,23 @@ include_once(__DIR__ . '/../controller/GeneraliController.php');
 
             <div class="form-group">
                 <label for="fname">First Name:</label>
-                <input type="text" class="form-control" placeholder="First Name" name="fname" id="fname" value="Maximo" required="on">
+                <input type="text" class="form-control" placeholder="First Name" name="fname" id="fname" value="Ronald" required="on">
             </div>
             <div class="form-group">
                 <label for="mname">Middle Name:</label>
-                <input type="text" class="form-control" placeholder="Middle Name" name="mname" id="mname" value="M" required="on">
+                <input type="text" class="form-control" placeholder="Middle Name" name="mname" id="mname" value="L" required="on">
             </div>
             <div class="form-group">
                 <label for="lname">Last Name:</label>
-                <input type="text" class="form-control" placeholder="Last Name" name="lname" id="lname" value="Olegario" required="on">
+                <input type="text" class="form-control" placeholder="Last Name" name="lname" id="lname" value="Castro" required="on">
             </div>
             <div class="form-group">
                 <label for="suffix">Suffix:</label>
-                <input type="text" class="form-control" placeholder="Suffix" name="suffix" id="suffix" value="Jr">
+                <input type="text" class="form-control" placeholder="Suffix" name="suffix" id="suffix" value="Sr">
             </div>
             <div class="form-group">
                 <label for="date_of_birth">Date of Birth:</label>
-                <input type="text" class="form-control" placeholder="Date of Birth" name="date_of_birth" id="date_of_birth" value="01/03/1955" required="on">
+                <input type="text" class="form-control" placeholder="Date of Birth" name="date_of_birth" id="date_of_birth" value="11/10/1957" required="on">
             </div>
             <div class="form-group">
                 <label for="gender">Gender:</label>
@@ -129,9 +129,9 @@ include_once(__DIR__ . '/../controller/GeneraliController.php');
     <?php
         if(isset($_POST['confirm'])){
 
-            // $policyno       = '99001506-000'; //dev
-            $policyno       = '99001529-SV'; //production
-            $refno          = '20080003660';
+            $policyno       = '99001507-000'; //dev
+            // $policyno       = '99001529-SV'; //production
+            $refno          = '20080003330';
             $fname          = $_POST['fname'];
             $mname          = $_POST['mname'];
             $lname          = $_POST['lname'];
