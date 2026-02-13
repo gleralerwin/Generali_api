@@ -175,7 +175,7 @@ include_once(__DIR__ . '/../controller/GeneraliController.php');
             $success = $res['success'] ?? null; 
         }
     ?>
-        <h3>Details</h3>
+        <h3>API Details</h3>
         <div class="alert alert-info">
             <strong>API Response : </strong><?php echo $response ."<br>";?>
         </div>
